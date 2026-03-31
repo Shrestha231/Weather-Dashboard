@@ -49,40 +49,24 @@ It provides real-time weather data, air quality, and historical weather insights
 -  Custom calendar date picker
 -  Fast API data loading
 
-## 📁 Project Structure
-
-
-src/
-│
-├── components/
-│ ├── Navbar.jsx
-│ ├── WeatherCard.jsx
-│ ├── Charts.jsx
-│ ├── AirQuality.jsx
- 
-│
-├── pages/
-│ ├── Page1.jsx
-│ ├── Page2.jsx
-│
-├── App.jsx
-├── main.jsx
-
 
 ## Installation
 To run this project locally, follow these steps:
 
 1. Clone the repository:
 git clone https://github.com/yourusername/your-repo.git
+
 cd your-repo
 
-2. Install the project dependencies:
+3. Install the project dependencies:
+   
 npm install
 
-3. Once you've installed the project you can start the development server:
+5. Once you've installed the project you can start the development server:
+   
 npm run dev
 
-4. Access the application in your web browser at http://localhost:5173
+7. Access the application in your web browser at http://localhost:5173
 
 
 
