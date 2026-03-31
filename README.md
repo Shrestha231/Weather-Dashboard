@@ -53,21 +53,27 @@ It provides real-time weather data, air quality, and historical weather insights
 ## Installation
 To run this project locally, follow these steps:
 
-1. Clone the repository:
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/yourusername/your-repo.git
+cd your-repo
+```
 
-  cd your-repo
+### 2. Install the project dependencies
 
-3. Install the project dependencies:
-   
-  npm install
+```bash
+npm install
+```
 
-5. Once you've installed the project you can start the development server:
-   
-  npm run dev
+### 3. Start the development server
 
-7. Access the application in your web browser at http://localhost:5173
+```bash
+npm run dev
+```
 
+### 4. Open in browser
 
+http://localhost:5173
 
   
