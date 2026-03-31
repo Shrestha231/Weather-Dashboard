@@ -1,20 +1,89 @@
-<<<<<<< HEAD
-# React + Vite
+# Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Weather Dashboard Web ** built using React, Tailwind CSS, and Vite.  
+It provides real-time weather data, air quality, and historical weather insights with interactive charts.
 
-Currently, two official plugins are available:
+# Technologies Used:
+-  React.js
+-  Vite
+-  Tailwind CSS
+-  Recharts
+-  Axios
+-  Open-Meteo API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ ##  Features:
 
-## React Compiler
+ ### Page 1 – Single Day Weather
+- Auto-detect user location using GPS
+- Show current weather conditions
+- Select any past date using calendar
+- View:
+  -  Temperature (min, max, current)
+  - Humidity
+  -  Precipitation
+  -  Wind Speed
+  -  Sunrise & Sunset
+  -  UV Index
+- Air Quality Data:
+  - PM10, PM2.5
+  - CO, NO2, SO2
+- Interactive hourly charts
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+###  Page 2 – 2 Year Data Analysis
+- Select custom date range (up to 2 years)
+- View data in charts:
+-   Temperature (min, max, mean)
+-   Wind Speed & Direction
+-   Precipitation
+-   Air Quality (PM10, PM2.5)
+-   Zoom & scroll charts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Weather-Dashboard
->>>>>>> d1b468181746d7a4ada8e7705d2318029473244a
+---
+
+### 🎨 UI Features
+-  Dark Mode / Light Mode toggle
+-  Fully responsive design
+-  Interactive charts (Recharts)
+-  Custom calendar date picker
+-  Fast API data loading
+
+## 📁 Project Structure
+
+
+src/
+│
+├── components/
+│ ├── Navbar.jsx
+│ ├── WeatherCard.jsx
+│ ├── Charts.jsx
+│ ├── AirQuality.jsx
+ 
+│
+├── pages/
+│ ├── Page1.jsx
+│ ├── Page2.jsx
+│
+├── App.jsx
+├── main.jsx
+
+
+## Installation
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
+
+2. Install the project dependencies:
+npm install
+
+3. Once you've installed the project you can start the development server:
+npm run dev
+
+4. Access the application in your web browser at http://localhost:5173
+
+
+
+  
