@@ -35,7 +35,7 @@ const Navbar = ({ page, setPage }) => {
                 : "text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700"
             }`}
           >
-            Page 1
+            Single Day
           </button>
 
           <button
@@ -46,7 +46,7 @@ const Navbar = ({ page, setPage }) => {
                 : "text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700"
             }`}
           >
-            Page 2
+            Two Year Forecast
           </button>
 
           {/* Dark Mode Toggle */}
@@ -78,7 +78,7 @@ const Navbar = ({ page, setPage }) => {
             }}
             className="block w-full text-left text-gray-700 dark:text-gray-200"
           >
-            Page 1
+            Single Day
           </button>
 
           <button
@@ -88,7 +88,7 @@ const Navbar = ({ page, setPage }) => {
             }}
             className="block w-full text-left text-gray-700 dark:text-gray-200"
           >
-            Page 2
+            Two Year Forecast
           </button>
 
           <button

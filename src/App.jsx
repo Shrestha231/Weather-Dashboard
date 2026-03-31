@@ -1,19 +1,18 @@
-import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
 import Page1 from "./pages/Page1";
 import Page2 from "./pages/Page2";
 import Navbar from "./components/Navbar";
 
 function App() {
-  const [page, setPage] = useState(1);
-
   return (
     <div>
-      {/* Navbar */}
-      <Navbar page={page} setPage={setPage} />
+      <Navbar />
 
-      {/* Pages */}
-      <div className="pt-4">
-        {page === 1 ? <Page1 /> : <Page2 />}
+      <div className="pt-1">
+        <Routes>
+          <Route path="/Page1" element={<Page1 />} />
+          <Route path="/Page2" element={<Page2 />} />
+        </Routes>
       </div>
     </div>
   );
